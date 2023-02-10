@@ -1,5 +1,10 @@
+
+
+
+
 #header {
     background-image: url("https://www.dorothycircusgallery.uk/wp-content/uploads/2020/01/DCG_Anka-Zhuravleva_Untitled-1_2019_One-of-a-kind_Courtesy-DCG-the-Artist.jpg");
+    background-position: center;
     background-size: cover;
     min-height: 80vh;
     padding: 1rem;
@@ -79,19 +84,24 @@ p {
     background-color: #B7C4CF;
     width: 100%;
     padding: 9% 10%;
-   
+}
+
+.perfil_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .img1 {
-    
-    width: 300px;
-    float: left;
-    margin: 5%;
-    border-radius: 100%;
+    max-width: 100%; 
 }
 
 .perfil {
-   
+    gap: 2rem;
+    justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
     width: 95%;
     margin: 15px;
     text-align: right;
